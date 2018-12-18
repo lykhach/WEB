@@ -1,0 +1,63 @@
+.formWithValidation {
+  display: block;
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.field {
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+.formWithValidation div {
+  width: 100%;
+}
+
+div .field input {
+  width: 100%;
+}
+
+.validateBtn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.linkButton {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+ul li {
+  padding: 10px;
+}
+
+td select,
+td input {
+  width: 150px;
+}
+
+label {
+  display: block;
+}
+
+.error input,
+.error textarea {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+}
